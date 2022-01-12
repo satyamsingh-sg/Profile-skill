@@ -1,25 +1,13 @@
-.nav-item{
-  padding-right: 60px;
 
-  font-size: 18px;
-}
-.nav-link{
+.nav-item{
+  margin-left: 30px;
   color: white;
 }
-.navbar-toggler{
-  border: 3px solid white;
-  color:white;
-
+.element{
+  color: white;
 }
-.navbar-brand{
-  font-size: 27px;
-  color:yellow;
-  font-family: cursive;
-}
-.navbar{
-  background-color: black;
-  padding: 20px;
-
+.element:hover{
+color:red;
 }
 .background{
   background-image: url("../img/satyam.gif");
@@ -27,6 +15,7 @@
   height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  opacity:1;
 }
 .download{
   background-position: center;
@@ -48,3 +37,117 @@ text-decoration:none;
   font-weight: bold;
   color:yellow;
 }
+.about{
+margin-top: 70px;
+margin-bottom: 300px;
+
+}
+h1{
+  text-align: center;
+  color: green;
+}
+.profile{
+  margin-top: 150px;
+  background-color: #E5E4E2;
+  padding-bottom:200px;
+  padding-top: 120px;
+
+
+}
+.hover12 figure {
+	background: #1abc9c;
+}
+.hover12 figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover12 figure:hover img {
+	opacity: .5;
+}
+
+
+
+.profileimg{
+ margin-top: 70px;
+
+
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.project{
+  margin-top: 100px;
+}
+.card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+{
+   background-color: green;
+}
+.more{
+  background-color: #E5E4E2;
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+.more h2{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.more h4{
+  text-align: center;
+
+}
+.more p{
+  text-align: center;
+}
+.block{
+
+  padding: 100px;
+  width: 100px;
+  background-color:#1abc9c;
+  border-radius:1080px;
+  margin-left: 80px;
+}
+.s{
+  margin-left: 20px;
+}
+.foot{
+  background-color: black;
+  padding: 20px;
+}
+.foot p{
+  text-align: center;
+  color: white;
+}
+@media only screen and (max-width: 990px){
+  .navbar{
+    background-color: white;
+    color:black;
+    padding: 20px;
+
+  }
+  .nav-link{
+    color: black;
+  }
+  .navbar-toggler{
+    border: 3px solid b
+    lack;
+    color:black;
+
+  }
+
+   .about h1{
+       margin-left: 10px;
+   }
+
+  .project{
+    margin-top: 100px;
+  }
+
+
+    }
