@@ -39,12 +39,12 @@ text-decoration:none;
 }
 .about{
 margin-top: 70px;
-margin-bottom: 300px;
+
 
 }
 h1{
   text-align: center;
-  color: green;
+  color: #1abc9c;
 }
 .profile{
   margin-top: 150px;
@@ -85,8 +85,10 @@ a{
   margin-bottom: 20px;
 }
 
-{
-   background-color: green;
+.imge img{
+   float: right;
+   margin-right: 3cm;
+   border-radius: 100px;
 }
 .more{
   background-color: #E5E4E2;
